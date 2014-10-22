@@ -7,6 +7,10 @@ description: Wercker box for LEMP Composer AND WordPress
 keywords:
   - lemp
   - wordpress
+  - linux
+  - nginx
+  - mysql
+  - php
 packages:
   - nginx
   - composer
@@ -51,7 +55,7 @@ script: |
   # Download WordPress
   mkdir /srv/www/wordpress
   cd /srv/www/wordpress
-  wp core download
+  #wp core download
 
   # Fix up the permissions
   sudo chown -R ubuntu .
