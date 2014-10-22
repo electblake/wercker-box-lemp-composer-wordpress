@@ -1,7 +1,7 @@
 # Box-LEMP-WordPress
 A [Wercker][wercker] box for WordPress development on the LEMP stack.
 
-[![wercker status](https://app.wercker.com/status/2feeaa8934eaad0f982f6e1e80600ad7/m/master "wercker status")](https://app.wercker.com/project/bykey/2feeaa8934eaad0f982f6e1e80600ad7)
+Based on channeleaton/box-lemp-wordpress@0.0.8
 
 ## What's inside?
 This box comes with almost everything you need to test and deploy your WordPress theme or plugin.
@@ -16,30 +16,6 @@ This box comes with almost everything you need to test and deploy your WordPress
 
 ## How to use
 WordPress is installed in `/srv/www/wordpress`. In your project's `wercker.yml`, copy your project files to the proper location.
-
-## Changelog
-### 0.0.7
-- Still fixing wp-cli
-
-### 0.0.6
-- Fixed wp-cli permissions again
-- Streamlined software installation
-
-### 0.0.5
-- Fixed more permissions issues with wp-cli
-
-### 0.0.4
-- Fixed permissions issue with wp-cli
-
-### 0.0.3
-- This README
-
-### 0.0.2
-- Cleaned up the provisioning script
-- Changed from a `service` to `main` box.
-
-### 0.0.1
-- Finally got this thing to deploy
 
 ## License
 As with everything good in WordPress, GPL2.

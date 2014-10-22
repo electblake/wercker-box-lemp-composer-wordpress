@@ -1,9 +1,9 @@
-name: box-lemp-wordpress
-version: 0.0.8
-inherits: wercker/php@1.0.2
+name: box-lemp-composer-wordpress
+version: 0.0.1
+inherits: wercker/php@1.1.0
 type: main
 platform: ubuntu@12.04
-description: Wercker box for LEMP and WordPress
+description: Wercker box for LEMP Composer AND WordPress
 keywords:
   - lemp
   - wordpress
